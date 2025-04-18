@@ -10,6 +10,7 @@ import Home from "@/pages/Home";
 import Curriculum from "@/pages/Curriculum";
 import StudyMaterials from "@/pages/StudyMaterials";
 import Exercises from "@/pages/Exercises";
+import ExerciseDetails from "@/pages/ExerciseDetails";
 import Quizzes from "@/pages/Quizzes";
 import Tools from "@/pages/Tools";
 
@@ -20,6 +21,9 @@ function Router() {
       <Route path="/curriculum" component={Curriculum} />
       <Route path="/study-materials" component={StudyMaterials} />
       <Route path="/exercises" component={Exercises} />
+      <Route path="/exercises/:category" component={Exercises} />
+      <Route path="/exercises/:category/:subcategory" component={Exercises} />
+      <Route path="/exercises/:category/:subcategory/:id" component={ExerciseDetails} />
       <Route path="/quizzes" component={Quizzes} />
       <Route path="/tools" component={Tools} />
       {/* Fallback to 404 */}
