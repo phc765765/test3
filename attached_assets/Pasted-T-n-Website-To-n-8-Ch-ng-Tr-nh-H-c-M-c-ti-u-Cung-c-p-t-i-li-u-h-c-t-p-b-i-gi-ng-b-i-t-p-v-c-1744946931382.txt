@@ -1,0 +1,83 @@
+Tên Website:
+Toán 8 – Chương Trình Học
+
+Mục tiêu:
+Cung cấp tài liệu học tập, bài giảng, bài tập và các công cụ hỗ trợ cho học sinh lớp 8 theo chương trình giảng dạy môn Toán 8. Website này giúp học sinh ôn tập các chủ đề, luyện tập các bài tập toán và kiểm tra kiến thức một cách hiệu quả.
+
+Các Trang Chính:
+
+Trang Chủ (Home):
+
+Giới thiệu về website và mục tiêu của nó.
+
+Lịch học và các bài học quan trọng trong chương trình Toán 8.
+
+Liên kết tới các trang học tập và bài kiểm tra.
+
+Chương Trình Học (Curriculum):
+
+Học Kỳ I:
+
+Chương I: Biểu thức đại số (29 tiết)
+
+Các bài học: Đơn thức và đa thức nhiều biến, Các phép toán với đa thức nhiều biến, Hằng đẳng thức đáng nhớ, Phân tích đa thức thành nhân tử, Phân thức đại số, Cộng, trừ phân thức, Nhân, chia phân thức.
+
+Bài kiểm tra giữa kỳ.
+
+Tài liệu học tập, bài tập thực hành.
+
+Chương II: Các hình khối trong thực tiễn (8 tiết)
+
+Các bài học: Hình chóp tam giác đều, Hình chóp tứ giác đều, Diện tích xung quanh và thể tích của các hình chóp.
+
+Chương IV: Một số yếu tố thống kê (12 tiết)
+
+Các bài học: Thu thập và phân loại dữ liệu, Lựa chọn dạng biểu đồ, Phân tích dữ liệu.
+
+Học Kỳ II:
+
+Chương V: Hàm số và đồ thị (20 tiết)
+
+Các bài học: Khái niệm hàm số, Tọa độ của một điểm và đồ thị, Hàm số bậc nhất y=ax+b, Hệ số góc của đường thẳng.
+
+Chương VI: Phương trình (14 tiết)
+
+Các bài học: Phương trình bậc nhất một ẩn, Giải bài toán bằng cách lập phương trình bậc nhất.
+
+Chương VIII: Hình đồng dạng (18 tiết)
+
+Các bài học: Hai tam giác đồng dạng, Các trường hợp đồng dạng của hai tam giác.
+
+Tài Liệu Học Tập (Study Materials):
+
+Tài liệu học tập cho mỗi bài học, bao gồm lý thuyết, ví dụ, bài tập mẫu.
+
+Hướng dẫn ôn tập và các bài tập tự kiểm tra.
+
+Bài Tập (Exercises):
+
+Các bài tập từ cơ bản đến nâng cao.
+
+Hướng dẫn giải chi tiết cho các bài tập.
+
+Các bài kiểm tra giữa kỳ và cuối kỳ.
+
+Các bài tập tương tác online để học sinh có thể làm trực tiếp trên website.
+
+Bài Kiểm Tra (Quizzes):
+
+Tạo các bài kiểm tra theo từng chương học, bao gồm các câu hỏi trắc nghiệm, tự luận.
+
+Kiểm tra online và nhận phản hồi kết quả tự động.
+
+Công Cụ Hỗ Trợ (Tools):
+
+Giải bài toán online: Công cụ giải các phương trình, đồ thị hàm số, và các bài toán đại số.
+
+GeoGebra: Tích hợp GeoGebra cho việc vẽ đồ thị, hình học, và các bài tập thực hành.
+
+Thống kê và Xác suất: Công cụ hỗ trợ phân tích dữ liệu và tính toán xác suất.
+
+Liên Hệ (Contact):
+
+Phần này cung cấp thông tin liên hệ, giải đáp thắc mắc, hỗ trợ học sinh trong quá trình học tập.
