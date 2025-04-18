@@ -30,21 +30,21 @@ const Footer = () => {
           <div>
             <h4 className="text-lg font-bold font-heading mb-4">Chương trình học</h4>
             <ul className="space-y-2">
-              <li><Link href="/curriculum?semester=1"><a className="text-gray-400 hover:text-white transition-colors">Học kỳ I</a></Link></li>
-              <li><Link href="/curriculum?semester=2"><a className="text-gray-400 hover:text-white transition-colors">Học kỳ II</a></Link></li>
-              <li><Link href="/curriculum?subject=algebra"><a className="text-gray-400 hover:text-white transition-colors">Đại số</a></Link></li>
-              <li><Link href="/curriculum?subject=geometry"><a className="text-gray-400 hover:text-white transition-colors">Hình học</a></Link></li>
-              <li><Link href="/curriculum?subject=statistics"><a className="text-gray-400 hover:text-white transition-colors">Thống kê</a></Link></li>
+              <li><Link href="/curriculum?semester=1"><div className="text-gray-400 hover:text-white transition-colors cursor-pointer">Học kỳ I</div></Link></li>
+              <li><Link href="/curriculum?semester=2"><div className="text-gray-400 hover:text-white transition-colors cursor-pointer">Học kỳ II</div></Link></li>
+              <li><Link href="/curriculum?subject=algebra"><div className="text-gray-400 hover:text-white transition-colors cursor-pointer">Đại số</div></Link></li>
+              <li><Link href="/curriculum?subject=geometry"><div className="text-gray-400 hover:text-white transition-colors cursor-pointer">Hình học</div></Link></li>
+              <li><Link href="/curriculum?subject=statistics"><div className="text-gray-400 hover:text-white transition-colors cursor-pointer">Thống kê</div></Link></li>
             </ul>
           </div>
           
           <div>
             <h4 className="text-lg font-bold font-heading mb-4">Tài nguyên</h4>
             <ul className="space-y-2">
-              <li><Link href="/study-materials"><a className="text-gray-400 hover:text-white transition-colors">Tài liệu học tập</a></Link></li>
-              <li><Link href="/exercises"><a className="text-gray-400 hover:text-white transition-colors">Bài tập</a></Link></li>
-              <li><Link href="/quizzes"><a className="text-gray-400 hover:text-white transition-colors">Kiểm tra</a></Link></li>
-              <li><Link href="/tools"><a className="text-gray-400 hover:text-white transition-colors">Công cụ hỗ trợ</a></Link></li>
+              <li><Link href="/study-materials"><div className="text-gray-400 hover:text-white transition-colors cursor-pointer">Tài liệu học tập</div></Link></li>
+              <li><Link href="/exercises"><div className="text-gray-400 hover:text-white transition-colors cursor-pointer">Bài tập</div></Link></li>
+              <li><Link href="/quizzes"><div className="text-gray-400 hover:text-white transition-colors cursor-pointer">Kiểm tra</div></Link></li>
+              <li><Link href="/tools"><div className="text-gray-400 hover:text-white transition-colors cursor-pointer">Công cụ hỗ trợ</div></Link></li>
               <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Video bài giảng</a></li>
             </ul>
           </div>

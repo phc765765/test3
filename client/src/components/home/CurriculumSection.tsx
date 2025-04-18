@@ -9,14 +9,14 @@ const CurriculumSection = () => {
   const chapters = [
     {
       id: 1,
-      title: "Biểu thức đại số (29 tiết)",
-      color: "blue",
+      title: "Biểu thức đại số (28 tiết)",
+      color: "red",
       lessons: [
-        { id: 1, title: "Đơn thức và đa thức nhiều biến", status: "available" },
-        { id: 2, title: "Các phép toán với đa thức nhiều biến", status: "available" },
+        { id: 1, title: "Nhân đơn thức với đa thức", status: "current" },
+        { id: 2, title: "Rút gọn biểu thức đại số", status: "available" },
         { id: 3, title: "Hằng đẳng thức đáng nhớ", status: "available" },
         { id: 4, title: "Phân tích đa thức thành nhân tử", status: "available" },
-        { id: 5, title: "Phân thức đại số", status: "current" },
+        { id: 5, title: "Phân thức đại số", status: "available" },
         { id: 6, title: "Cộng, trừ phân thức", status: "locked" },
         { id: 7, title: "Nhân, chia phân thức", status: "locked" },
         { id: 8, title: "Kiểm tra giữa kỳ", status: "locked" }
@@ -24,22 +24,24 @@ const CurriculumSection = () => {
     },
     {
       id: 2,
-      title: "Các hình khối trong thực tiễn (8 tiết)",
-      color: "purple",
+      title: "Tam giác đồng dạng (18 tiết)",
+      color: "yellow",
       lessons: [
-        { id: 1, title: "Hình chóp tam giác đều", status: "available" },
-        { id: 2, title: "Hình chóp tứ giác đều", status: "available" },
-        { id: 3, title: "Diện tích xung quanh và thể tích của các hình chóp", status: "locked" }
+        { id: 1, title: "Hai tam giác đồng dạng", status: "available" },
+        { id: 2, title: "Trường hợp đồng dạng của tam giác", status: "available" },
+        { id: 3, title: "Các đường đồng quy trong tam giác", status: "locked" },
+        { id: 4, title: "Ứng dụng tam giác đồng dạng", status: "locked" }
       ]
     },
     {
       id: 3,
-      title: "Một số yếu tố thống kê (12 tiết)",
+      title: "Các phép biến hình (15 tiết)",
       color: "green",
       lessons: [
-        { id: 1, title: "Thu thập và phân loại dữ liệu", status: "available" },
-        { id: 2, title: "Lựa chọn dạng biểu đồ", status: "locked" },
-        { id: 3, title: "Phân tích dữ liệu", status: "locked" }
+        { id: 1, title: "Phép tịnh tiến", status: "available" },
+        { id: 2, title: "Phép đối xứng", status: "locked" },
+        { id: 3, title: "Phép quay", status: "locked" },
+        { id: 4, title: "Phép vị tự", status: "locked" }
       ]
     }
   ];
@@ -50,9 +52,11 @@ const CurriculumSection = () => {
 
   const getColorClass = (color: string) => {
     switch(color) {
-      case "blue": return "bg-blue-100 text-primary";
+      case "blue": return "bg-blue-100 text-[#0057B7]";
       case "purple": return "bg-purple-100 text-[#8B5CF6]";
       case "green": return "bg-green-100 text-[#10B981]";
+      case "red": return "bg-red-100 text-[#E53935]";
+      case "yellow": return "bg-yellow-100 text-[#F59E0B]";
       default: return "bg-blue-100 text-primary";
     }
   };
@@ -105,7 +109,7 @@ const CurriculumSection = () => {
                           <li key={lesson.id} className="flex items-center text-primary font-medium">
                             <CheckCircle className="h-4 w-4 mr-2" />
                             <Link href={`/curriculum/chapter/${chapter.id}/lesson/${lesson.id}`}>
-                              <a className="text-inherit hover:underline">{lesson.title}</a>
+                              <div className="text-inherit hover:underline cursor-pointer">{lesson.title}</div>
                             </Link>
                             <span className="ml-2 px-2 py-0.5 bg-blue-100 text-primary text-xs rounded-full">Đang học</span>
                           </li>
@@ -115,7 +119,7 @@ const CurriculumSection = () => {
                           <li key={lesson.id} className="flex items-center text-gray-700 hover:text-primary">
                             <FileText className="h-4 w-4 mr-2 text-gray-400" />
                             <Link href={`/curriculum/chapter/${chapter.id}/lesson/${lesson.id}`}>
-                              <a className="text-inherit hover:underline">{lesson.title}</a>
+                              <div className="text-inherit hover:underline cursor-pointer">{lesson.title}</div>
                             </Link>
                           </li>
                         );

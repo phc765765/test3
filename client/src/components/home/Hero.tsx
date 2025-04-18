@@ -15,14 +15,14 @@ const Hero = () => {
   return (
     <section className="relative mb-20 overflow-hidden rounded-3xl">
       {/* Background with gradient overlay */}
-      <div className="absolute inset-0 bg-gradient-to-r from-blue-700 via-indigo-800 to-indigo-900 -z-10"></div>
+      <div className="absolute inset-0 bg-gradient-to-r from-green-700 via-green-800 to-green-900 -z-10"></div>
       <div className="absolute inset-0 opacity-20 bg-[url('https://img.freepik.com/free-vector/realistic-math-chalkboard-background_23-2148163817.jpg')] bg-cover bg-center mix-blend-overlay -z-10"></div>
 
       {/* Decorative elements */}
       <div className="absolute top-0 left-0 w-full h-full overflow-hidden -z-10">
-        <div className="absolute -top-10 -left-10 w-40 h-40 bg-blue-500 rounded-full filter blur-3xl opacity-20"></div>
-        <div className="absolute top-1/2 left-1/3 w-60 h-60 bg-indigo-500 rounded-full filter blur-3xl opacity-20"></div>
-        <div className="absolute -bottom-10 -right-10 w-40 h-40 bg-purple-500 rounded-full filter blur-3xl opacity-20"></div>
+        <div className="absolute -top-10 -left-10 w-40 h-40 bg-red-500 rounded-full filter blur-3xl opacity-20"></div>
+        <div className="absolute top-1/2 left-1/3 w-60 h-60 bg-yellow-500 rounded-full filter blur-3xl opacity-20"></div>
+        <div className="absolute -bottom-10 -right-10 w-40 h-40 bg-green-500 rounded-full filter blur-3xl opacity-20"></div>
       </div>
 
       <div className="max-w-7xl mx-auto px-6 lg:px-8 py-16 md:py-20">
