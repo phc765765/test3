@@ -15,8 +15,8 @@ const MobileMenu = ({ isOpen, navItems, currentPath, onClose }: MobileMenuProps)
       <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
         {navItems.map((item) => (
           <Link key={item.path} href={item.path}>
-            <a 
-              className={`block px-3 py-2 rounded-md text-base font-medium ${
+            <div 
+              className={`block px-3 py-2 rounded-md text-base font-medium cursor-pointer ${
                 currentPath === item.path 
                   ? 'text-primary bg-primary-50' 
                   : 'text-gray-700 hover:bg-gray-50 hover:text-primary'
@@ -24,7 +24,7 @@ const MobileMenu = ({ isOpen, navItems, currentPath, onClose }: MobileMenuProps)
               onClick={onClose}
             >
               {item.name}
-            </a>
+            </div>
           </Link>
         ))}
       </div>

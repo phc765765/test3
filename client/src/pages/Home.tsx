@@ -30,12 +30,12 @@ const Home = () => {
           Bạn có thể kiểm tra các tính năng mới về bài tập, lý thuyết, hướng dẫn giải và trắc nghiệm thông qua các liên kết sau:
         </p>
         <div className="flex flex-wrap gap-3">
-          <Link href="/exercises/algebra/expressions/101">
+          <a href="/exercises/algebra/expressions/101">
             <Button className="bg-blue-600 hover:bg-blue-700 flex items-center gap-2">
               <FileText className="h-4 w-4" />
               Bài tập đại số: Rút gọn biểu thức
             </Button>
-          </Link>
+          </a>
           <Link href="/exercises/geometry/pyramids/301">
             <Button className="bg-purple-600 hover:bg-purple-700 flex items-center gap-2">
               <FileText className="h-4 w-4" />

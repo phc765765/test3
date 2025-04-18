@@ -28,10 +28,10 @@ const Header = () => {
             </div>
             <div className="ml-3">
               <Link href="/">
-                <a className="block">
+                <div className="block cursor-pointer">
                   <h1 className="text-2xl font-bold text-gray-900 font-heading">MathSphere</h1>
                   <p className="text-sm text-gray-500">Khám phá Toán học lớp 8</p>
-                </a>
+                </div>
               </Link>
             </div>
           </div>
@@ -40,9 +40,9 @@ const Header = () => {
           <nav className="hidden md:flex space-x-6">
             {navItems.map((item) => (
               <Link key={item.path} href={item.path}>
-                <a className={`font-medium font-heading ${location === item.path ? 'text-primary' : 'text-gray-700 hover:text-primary'}`}>
+                <div className={`font-medium font-heading cursor-pointer ${location === item.path ? 'text-primary' : 'text-gray-700 hover:text-primary'}`}>
                   {item.name}
-                </a>
+                </div>
               </Link>
             ))}
           </nav>
