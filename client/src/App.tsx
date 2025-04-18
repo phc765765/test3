@@ -13,6 +13,8 @@ import Exercises from "@/pages/Exercises";
 import ExerciseDetails from "@/pages/ExerciseDetails";
 import Quizzes from "@/pages/Quizzes";
 import Tools from "@/pages/Tools";
+import SimilarTriangles from "@/pages/SimilarTriangles";
+import AlgebraicExpressions from "@/pages/AlgebraicExpressions";
 
 function Router() {
   return (
@@ -26,6 +28,8 @@ function Router() {
       <Route path="/exercises/:category/:subcategory/:id" component={ExerciseDetails} />
       <Route path="/quizzes" component={Quizzes} />
       <Route path="/tools" component={Tools} />
+      <Route path="/similar-triangles" component={SimilarTriangles} />
+      <Route path="/algebraic-expressions" component={AlgebraicExpressions} />
       {/* Fallback to 404 */}
       <Route component={NotFound} />
     </Switch>
